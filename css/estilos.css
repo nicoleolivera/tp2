@@ -1,0 +1,12 @@
+body {
+    background: #000000;	
+    color: #f8f6ad;
+}
+
+header, main, footer{
+    background: #26457d;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
