@@ -10,9 +10,11 @@
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Home page</a></li>
-                <li><a href="biografía.html">Biografía de Van Gogh</a></li>
+            <h1 class="d-flex justify-content-center">Van Gogh</h1>
+            <ul class="d-flex justify-content-center">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="biografía.html">Biografía</a></li>
+                <li><a href="galeria.html">Galería</a></li>
             </ul>
         </nav>
 
@@ -20,27 +22,38 @@
 
     <main>
         <section>
-            <h1>Formulario de contacto</h1>
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" id="nombre">
-
-            <label for="mail">Mail:</label>
-            <input type="email" name="mail" id="mail">
-
-            <label for="asunto">Asunto:</label>
-            <input type="text" name="asunto" id="asunto">
-
-            <label for="mensaje">Mensaje:</label>
-            <input type="text" name="mensaje" id="mensaje">
-
-                        
-            <button type="submit" class="btnMensaje">Enviar Mensaje</button>
+            <h1>Contacto</h1>
+            <form class="row g-3">
+                <div class="col-md-6">
+                  <label for="nombre" class="form-label">Nombre</label>
+                  <input type="text" class="form-control" id="nombre">
+                </div>
+    
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                
+                <div class="col-12">
+                  <label for="Asunto" class="form-label">Asunto</label>
+                  <input type="text" class="form-control" id="Asunto">
+                </div>
+    
+                <div class="col-12">
+                  <label for="mensaje" class="form-label">Mensaje</label>
+                  <input type="text" class="form-control" id="mensaje">
+                </div>
+             
+                <div class="col-12">
+                  <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </form>        
         </section>
     </main>
 
     <footer>
-        <ul>
-            <li><a href="acerca-dev.html">Acerca del desarrolador</a></li>
+        <ul class="d-flex justify-content-center">
+            <li><a href="acerca-dev.html">Acerca del desarrollador</a></li>
             <li><a href="contacto.html">Contacto</a></li>
         </ul>
     </footer>
