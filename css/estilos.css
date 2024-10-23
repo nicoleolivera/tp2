@@ -5,6 +5,7 @@
 body {
     background: #6cb4a5;	
     color: #f8f6ad;
+
 }
 
 header, main, footer{
@@ -38,6 +39,20 @@ a:active {
 	color: #63598f;
 }
 
-img {
+.contenedor-img img {
     border-radius: 30px;
+    border: solid;
+    border-color: #000;
+
+}
+
+.contenedor-datos {
+    margin: 15px;
+    padding: 10px;
+}
+
+.contenedor-texto{
+    margin: 10px;
+    padding: 10px;
+
 }
