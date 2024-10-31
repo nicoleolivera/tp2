@@ -27,7 +27,7 @@ nav a, footer a {
 }
 
 a:link {
-	color: #36695f;
+	color: #8fd6c8;
 }
 a:visited {
 	color: #f8f6ad;
@@ -43,7 +43,6 @@ a:active {
     border-radius: 30px;
     border: solid;
     border-color: #000;
-
 }
 
 .contenedor-datos {
